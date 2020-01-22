@@ -61,23 +61,35 @@ module.exports = __webpack_require__.p + "065ab222fbdae2ce1ecc7e2b066392a7.png";
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(15);
-module.exports = __webpack_require__(27);
+module.exports = __webpack_require__.p + "0bc3929741a28aaf643856919cb06c9e.mp3";
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "ebd7e8297f19ab1a18627c2e10bb43cc.mp3";
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(17);
+module.exports = __webpack_require__(29);
 
 
 /***/ }),
-/* 15 */,
-/* 16 */,
 /* 17 */,
 /* 18 */,
 /* 19 */,
 /* 20 */,
 /* 21 */,
-/* 22 */
+/* 22 */,
+/* 23 */,
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(23);
+var content = __webpack_require__(25);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -98,7 +110,7 @@ if(content.locals) module.exports = content.locals;
 if(false) {}
 
 /***/ }),
-/* 23 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -108,10 +120,10 @@ exports.push([module.i, "#canvas {\n  display:block;\n}\n\nbody {\n  margin:0;\n
 
 
 /***/ }),
-/* 24 */,
-/* 25 */,
 /* 26 */,
-/* 27 */
+/* 27 */,
+/* 28 */,
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -927,6 +939,14 @@ var Instructions_Instructions = function Instructions() {
 };
 
 /* harmony default export */ var components_Instructions = (Instructions_Instructions);
+// EXTERNAL MODULE: ./src/assets/sound/eat.mp3
+var eat = __webpack_require__(14);
+var eat_default = /*#__PURE__*/__webpack_require__.n(eat);
+
+// EXTERNAL MODULE: ./src/assets/sound/drop.mp3
+var drop = __webpack_require__(15);
+var drop_default = /*#__PURE__*/__webpack_require__.n(drop);
+
 // CONCATENATED MODULE: ./src/components/Canvas.js
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -955,6 +975,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
@@ -1019,9 +1041,9 @@ function (_Component) {
 
     _defineProperty(_assertThisInitialized(_this), "isGameOver", false);
 
-    _defineProperty(_assertThisInitialized(_this), "eatSound", new entities_Sound('../assets/sound/eat.mp3'));
+    _defineProperty(_assertThisInitialized(_this), "eatSound", new entities_Sound(eat_default.a));
 
-    _defineProperty(_assertThisInitialized(_this), "dropSound", new entities_Sound('../assets/sound/drop.mp3'));
+    _defineProperty(_assertThisInitialized(_this), "dropSound", new entities_Sound(drop_default.a));
 
     return _this;
   }
@@ -1491,10 +1513,10 @@ function (_Component) {
 
 /* harmony default export */ var Canvas = (Canvas_App);
 // EXTERNAL MODULE: ./src/assets/styles/app.css
-var app = __webpack_require__(22);
+var app = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./node_modules/bootstrap/dist/css/bootstrap.min.css
-var bootstrap_min = __webpack_require__(25);
+var bootstrap_min = __webpack_require__(27);
 
 // CONCATENATED MODULE: ./src/index.js
 
@@ -1505,5 +1527,5 @@ var bootstrap_min = __webpack_require__(25);
 react_dom_default.a.render(react_default.a.createElement(Canvas, null), document.getElementById('root'));
 
 /***/ })
-],[[14,1,2]]]);
+],[[16,1,2]]]);
 //# sourceMappingURL=main.bundle.map
