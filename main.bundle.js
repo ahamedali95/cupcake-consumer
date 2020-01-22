@@ -1492,7 +1492,7 @@ function (_Component) {
     value: function render() {
       return react_default.a.createElement("div", {
         className: "container"
-      }, react_default.a.createElement(components_Instructions, null), react_default.a.createElement("div", {
+      }, react_default.a.createElement("div", {
         className: "row justify-content-center"
       }, react_default.a.createElement("canvas", {
         id: "canvas",
@@ -1503,7 +1503,7 @@ function (_Component) {
         style: {
           border: "2px solid #000000"
         }
-      })), react_default.a.createElement("div", {
+      })), react_default.a.createElement(components_Instructions, null), react_default.a.createElement("div", {
         className: "row justify-content-center"
       }, react_default.a.createElement("div", {
         className: "col col-6"
