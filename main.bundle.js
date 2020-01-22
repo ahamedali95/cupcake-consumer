@@ -934,8 +934,13 @@ var Instructions_Instructions = function Instructions() {
   return react_default.a.createElement("div", {
     className: "row justify-content-center"
   }, react_default.a.createElement("div", {
-    className: "col col-7"
-  }, react_default.a.createElement("strong", null, "Instructions:"), react_default.a.createElement("p", null, "Press arrow keys (\u2190 \u2192 \u2191) to move left, right and jump"), react_default.a.createElement("p", null, "Eat the cupcakes to increase score"), react_default.a.createElement("p", null, "Tiles collapse when it hit bridge"), react_default.a.createElement("p", null, "Game over when catcher falls off the bridge or eats a fruit")));
+    className: "col col-6"
+  }, react_default.a.createElement("strong", null, "Instructions:"), react_default.a.createElement("p", null, "Press arrow keys (\u2190 \u2192 \u2191) to move left, right and jump"), react_default.a.createElement("p", null, "Eat the cupcakes to increase score"), react_default.a.createElement("p", null, "Tiles collapse when it hit bridge"), react_default.a.createElement("p", null, "Game over when catcher falls off the bridge or eats a fruit"), react_default.a.createElement("p", {
+    style: {
+      fontSize: '11px',
+      fontWeight: '600'
+    }
+  }, "Sound is enabled")));
 };
 
 /* harmony default export */ var components_Instructions = (Instructions_Instructions);
@@ -1491,7 +1496,7 @@ function (_Component) {
         className: "row justify-content-center"
       }, react_default.a.createElement("canvas", {
         id: "canvas",
-        className: "col col-7",
+        className: "col col-6",
         ref: this.canvas,
         height: this.canvasHeight,
         width: this.canvasWidth,
@@ -1501,7 +1506,7 @@ function (_Component) {
       })), react_default.a.createElement("div", {
         className: "row justify-content-center"
       }, react_default.a.createElement("div", {
-        className: "col col-7"
+        className: "col col-6"
       }, react_default.a.createElement("span", null, "Source:"), react_default.a.createElement("a", {
         href: "https://github.com/ahamedali95/cupcake-consumer"
       }, "Github Repository"))));
