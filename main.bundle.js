@@ -1476,7 +1476,13 @@ function (_Component) {
         style: {
           border: "2px solid #000000"
         }
-      })));
+      })), react_default.a.createElement("div", {
+        className: "row justify-content-center"
+      }, react_default.a.createElement("div", {
+        className: "col col-7"
+      }, react_default.a.createElement("span", null, "Source:"), react_default.a.createElement("a", {
+        href: "https://github.com/ahamedali95/cupcake-consumer"
+      }, "Github Repository"))));
     }
   }]);
 
